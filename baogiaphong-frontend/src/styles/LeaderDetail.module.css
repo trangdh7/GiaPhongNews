@@ -1,0 +1,66 @@
+.container {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #222;
+  max-width: 900px;
+  margin: auto;
+}
+
+.name {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #a00;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile img {
+  width: 180px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.profile ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.profile li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.subList {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-top: 5px;
+}
+
+.timelineSection {
+  margin-top: 50px;
+}
+
+.timelineSection h2 {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.timelineSection ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.timelineSection li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,33 @@
+/* Căn chỉnh logo + tên báo */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #003399;
+  text-transform: uppercase;
+}
+
+/* Icon logo sát trái, tên báo sát bên phải */
+.navbar-brand img {
+  margin-right: 12px;
+}
+
+/* Canh phải các nút tìm kiếm + ngôn ngữ */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Nút ENGLISH */
+.btn-warning {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+.weather-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}

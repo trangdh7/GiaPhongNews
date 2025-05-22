@@ -1,0 +1,14 @@
+.bannerWrapper {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.bannerImage {
+  width: 100%;
+  height: auto;
+
+  object-fit: cover;
+}

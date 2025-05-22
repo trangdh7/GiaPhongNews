@@ -1,0 +1,16 @@
+body {
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+p,a,span,div,button {
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+  line-height: 25px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}

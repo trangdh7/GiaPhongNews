@@ -1,0 +1,28 @@
+.articleCard {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.articleImg {
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.imgLarge {
+  width: 250px;
+  height: 160px;
+}
+
+.imgNormal {
+  width: 180px;
+  height: 120px;
+}
+
+.articleInfo .title {
+  margin-bottom: 0.5rem;
+}
+
+.articleCardLarge .articleInfo {
+  font-size: 1.1rem;
+}

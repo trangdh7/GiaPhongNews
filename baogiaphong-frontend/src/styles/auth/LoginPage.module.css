@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 220px;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.title {
+  text-align: left;
+  font-size: 28px;
+  font-weight: 700;
+  color: #d70e0e;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.flexGroup {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fieldGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldGroup label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.input,
+.textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #b00000;
+  outline: none;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.radioGroup {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.submitButton {
+  background-color: #b00000;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: #9a0000;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.redirectText {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.redirectText a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.redirectText a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,73 @@
+/* HomePage.module.css */
+
+.tinNoiBatContainer {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  padding: 10px 10px;
+  width: 70%;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.cardImg {
+  width: 210px;
+  height: 140px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cardBody {
+  padding: 15px;
+}
+
+.cardTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.cardText {
+  font-size: 0.95rem;
+  color: #555;
+}
+/* RESPONSIVE cho màn hình nhỏ hơn 768px (tablet/phone) */
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .cardImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .cardBody {
+    padding: 10px 0;
+  }
+
+  .cardTitle {
+    font-size: 1rem;
+  }
+
+  .cardText {
+    font-size: 0.9rem;
+  }
+}
